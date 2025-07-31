@@ -1,0 +1,61 @@
+/* General body styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #e0f7fa, #ffffff);
+  color: #333;
+}
+
+/* Main container */
+.container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Heading */
+.main h1 {
+  color: #0077b6;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* Sub info section */
+.main2 p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+/* List styling */
+.main3 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.main3 ul li {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #caf0f8;
+  border-left: 6px solid #0077b6;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+/* Button styling */
+.btn-secondary {
+  background-color: #0077b6;
+  border: none;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background-color: #023e8a;
+  color: #fff;
+}
